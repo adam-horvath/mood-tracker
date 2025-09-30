@@ -6,5 +6,7 @@ module.exports = defineConfig([
   expoConfig,
   {
     ignores: ['dist/*'],
+    parser: '@babel/eslint-parser',
+    parserOptions: { requireConfigFile: false },
   },
 ]);
